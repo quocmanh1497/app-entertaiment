@@ -1,8 +1,13 @@
 import React from "react"
+import video from '../assets/video.mp4'
+
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <section className="footer">
+            <div className="overlay"></div>
+            <video src={video} autoPlay muted loop type="video/mp4"></video>
+        </section>
     )
 }
 

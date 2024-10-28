@@ -1,6 +1,10 @@
 import Hero from "./component/Hero"
 import Footer from "./component/Footer"
 import Header from "./component/Header"
+import Popular from "./component/Popular"
+
+
+
 import React, { useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css";
@@ -15,7 +19,8 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Footer />
+      <Popular />
+      {/* <Footer /> */}
     </>
   );
 }
