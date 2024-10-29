@@ -2,12 +2,14 @@ import Hero from "./component/Hero"
 import Footer from "./component/Footer"
 import Header from "./component/Header"
 import Popular from "./component/Popular"
+import Offers from "./component/Offers"
 
 
 
 import React, { useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css";
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
       <Header />
       <Hero />
       <Popular />
+      <Offers />
       {/* <Footer /> */}
     </>
   );
