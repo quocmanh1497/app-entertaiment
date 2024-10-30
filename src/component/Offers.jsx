@@ -68,9 +68,9 @@ export default function Offers() {
             <div className=' max-w-[1320px] mx-auto py-24'>
                 <div className='flex flex-col items-center'>
                     <div className=' relative w-fit px-8 py-2 flex items-center justify-center' >
-                        <span className=' bg-green rounded-md opacity-60 relative font-semibold'>
-                            <h6 className=' text-black relative font-semibold' >The fire every day of fit</h6>
-                        </span>
+                        <span className=' bg-green rounded-md opacity-60 relative font-semibold'>   </span>
+                        <h6 className=' text-black relative font-semibold' >The fire every day of fit</h6>
+
                     </div>
                     <h3 className=' lg:text-5xl text-3xl font-bold pb-8 text-white lg:w-4/5 text-center py-4'>
                         MERRY CHRISTMAS</h3>
