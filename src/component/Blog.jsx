@@ -73,7 +73,9 @@ export default function Blog() {
                     <div className=' grid lg:grid-cols-3 grid-cols-1 gap-8'>
                         <Blogs text=' Things to see and do when visiting Japan' title='Adventure' image='src/assets/background9.jpeg' />
                         <Blogs text=' Things to see and do when visiting Japan' title='Adventure' image='src/assets/background9.jpeg' />
+
                         <div className=' flex flex-col gap-2'>
+                            <Blogs text=' Things to see and do when visiting Japan' />
                             <Blogs text=' Things to see and do when visiting Japan' />
                             <Blogs text=' Things to see and do when visiting Japan' />
                         </div>

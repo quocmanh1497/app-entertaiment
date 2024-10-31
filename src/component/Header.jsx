@@ -17,7 +17,7 @@ const Header = () => {
                 <div className='lg:w-full w-11/12 mx-auto h-full flex lg:justify-center items-center gap-16'>
                     <div className='flex flex-col gap-y-4'>
                         <div className='flex items-center gap-x-2'>
-                            <img src="src/assets/logo1.png" alt="" className='w-24' />
+                            <img src="src/assets/logo1.png" alt="" className='w-24 rounded-full' />
                         </div>
                     </div>
                     <ul className='flex items-center xl:gap-12 gap-x-4 max-lg:hidden'>

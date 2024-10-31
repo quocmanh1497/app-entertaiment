@@ -144,26 +144,41 @@ export default function Hero() {
                         </div>
                     </div>
                     <img
-                        src="src/assets/arrow.avif" alt='' className='lg:block hidden my-4 -ml-96'
+                        src="src/assets/arrow.avif" alt='' className='lg:block w-12 rounded-full hidden my-8 -ml-100'
                     />
                     <p className=' text-white font-semibold lg:text-3xl text-xl lg:py-0 py-8'>Our Browse the select</p>
                 </div>
             </section>
 
-            <section className=" bg-[#F3F8F6] bg-['']" >
-                <div className=" relative z-10 max-w-[1320px] px-6 mx-auto -mt-24">
+
+
+            <section className=" bg-[#F3F8F6] bg-[url(src/assets/background8.jpeg)]" >
+                <div className=" relative z-10 max-w-[1320px] px-2 mx-auto -mt-24">
                     <Carousel responsive={responsive} infinite afterChange={handleAfterChange}
                         autoPlay={true} itemClass="px-2">
                         {type.map((item, idex) => (
                             <div key={indexedDB} className="group">
-                                <div
-                                    className={`cursor-pointer p8 rounded-lg flex flex-col justify-center items-start gap-4 $(currentSlide % type.length === indexedDB ? "bg-green text-white" : "text-green group-hover: bg-green group-hover:text-white": )`}>
-                                    <p className={' font-bold text-lg ${currentSlide % type.length === index ? "text-white" : " text-green group-hover:bg-green group-hover:text-white" }'}>
+                                <div className={`cursor-pointer p-2 rounded-lg flex flex-col justify-center items-start items-center gap-1 ${currentSlide % type.length === indexedDB
+                                    ? "bg-green text-white"
+                                    : "bg-white text-green group-hover:bg-green group-hover:text-white"
+                                    }`}
+                                >
+                                    <p className={`font-bold text-lg ${currentSlide % type.length === indexedDB
+                                        ? "text-white"
+                                        : "text-green group-hover:text-white"
+                                        }`}
+                                    >
                                         {item.title}
                                     </p>
                                     <span
-                                        className={'text-7xl ${ ? " text-white " : "text-green group-hover:text-white}'}> {item.icon}</span>
-                                    <p className={'${ currentSlide % type.length === index ? "text-white" : " text-green group-hover:text-white"}'}>Lorem ipsum is simply of free</p>
+                                        className={`text-7xl ${currentSlide % type.length === indexedDB
+                                            ? "text-white"
+                                            : "text-green group-hover:text-white"
+                                            }`}> {item.icon}</span>
+                                    <p className={`text-xl ${currentSlide % type.length === indexedDB
+                                        ? "text-white"
+                                        : "text-green group-hover:text-white"
+                                        }`}>Lorem ipsum is simply of free</p>
                                 </div>
                             </div>
                         ))}
@@ -179,7 +194,7 @@ export default function Hero() {
                                 <span className=" bg-green rounded-md opacity-15 absolute w-full h-full z-10"></span>
                                 <h6 className=" text-green relative font-semibold ">Popular activities</h6>
                             </div>
-                            <h3 className=" lg:text-5xl text-3xl font-bold pb-8 text-center py-4">Explore Real Adventure</h3>
+                            <h3 className=" lg:text-5xl text-3xl font-bold pb-8 text-center py-4 text-white">Explore Real Adventure</h3>
                         </div>
 
                         <div className=" py-8">

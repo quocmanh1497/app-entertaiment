@@ -70,10 +70,10 @@ export default function Offers() {
                     <div className=' relative w-fit px-8 py-2 flex items-center justify-center' >
                         <span className=' bg-green rounded-md opacity-60 relative font-semibold'>   </span>
                         <h6 className=' text-black relative font-semibold' >The fire every day of fit</h6>
-
                     </div>
-                    <h3 className=' lg:text-5xl text-3xl font-bold pb-8 text-white lg:w-4/5 text-center py-4'>
-                        MERRY CHRISTMAS</h3>
+                    <h3 className=' lg:text-5xl text-3xl font-bold pb-8 text-red-500 lg:w-4/5 text-center py-4'>
+                        MERRY CHRISTMAS
+                    </h3>
                 </div>
 
                 <div>
