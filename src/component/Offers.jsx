@@ -64,7 +64,7 @@ export default function Offers() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
 
     return (
-        <div className="bg-[url('src/assets/background2.jpeg')] pb-24">
+        <div className="bg-[url('src/assets/offers/offer.jpeg')] pb-24">
             <div className=' max-w-[1320px] mx-auto py-24'>
                 <div className='flex flex-col items-center'>
                     <div className=' relative w-fit px-8 py-2 flex items-center justify-center' >

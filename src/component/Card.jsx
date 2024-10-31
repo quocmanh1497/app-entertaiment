@@ -47,7 +47,7 @@ const type = [
     { title: "Discovery", icon: <RiPlaneLine /> },
 ]
 
-export default function Hero() {
+export default function Card() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const handleAfterChange = (_, state) => {
@@ -56,7 +56,7 @@ export default function Hero() {
 
     const Explore = ({ image, country }) => {
         return (
-            <div className=" relative group overflow-hidden rounded-[18px] shadow-lg">
+            <div data-aos="fade-down" className=" relative group overflow-hidden rounded-[18px] shadow-lg">
                 <img src={image} alt={country} className=" w-full h-[350px] object-cover rounded-[-10px] transition-transform duration-700 ease-in-out group-hover:scale-125" />
                 <span className=" bg-orange rounded-lg px-5 text-white text-xs absolute top-5 right-5 uppercase font-bold leading-8 whitespace-pre">25 Tours</span>
                 <div className=" absolute bottom-0 w-full bg-black bg-opacity-50 py-5 flex flex-col items-center justify-center transition-all duration-300 group-hover:bg-white group-hover:bg-opacity-100">
@@ -79,7 +79,7 @@ export default function Hero() {
                 data-aos-delay="300"
                 data-aos-duration="3000"
             >
-                <img src="src/assets/noel(3).jpg" alt="" className=' absolute h-full w-full object-cover'
+                <img src="src/assets/hero/hero.jpeg" alt="" className=' absolute h-full w-full object-cover'
                 />
                 <div className='flex flex-col justify-center items-center relative z-10 lg:h-full h-screen max-w-[1320px] px-6 lg:pt-0 pt-16 mx-auto'>
                     <span className=' lg:text-5xl text-3xl text-white text-center font-bold relative'>
@@ -144,7 +144,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <img
-                        src="src/assets/arrow.avif" alt='' className='lg:block w-12 rounded-full hidden my-8 -ml-100'
+                        src="src/assets/hero/arrow.avif" alt='' className='lg:block w-12 rounded-full hidden my-8 -ml-100'
                     />
                     <p className=' text-white font-semibold lg:text-3xl text-xl lg:py-0 py-8'>Our Browse the select</p>
                 </div>
@@ -152,7 +152,7 @@ export default function Hero() {
 
 
 
-            <section className=" bg-[#F3F8F6] bg-[url(src/assets/background8.jpeg)]" >
+            <section className=" bg-[#F3F8F6] bg-[url(src/assets/hero/hero1.jpg)]" >
                 <div className=" relative z-10 max-w-[1320px] px-2 mx-auto -mt-24">
                     <Carousel responsive={responsive} infinite afterChange={handleAfterChange}
                         autoPlay={true} itemClass="px-2">
@@ -200,10 +200,10 @@ export default function Hero() {
                         <div className=" py-8">
                             <Carousel responsive={responsive} infinite autoPlay={true} itemClass="px-2 pb-6"
                             >
-                                <Explore country='United Kingdom' image='src/assets/explore1.jpeg' />
-                                <Explore country='America Unite State' image='src/assets/explore3.jpeg' />
-                                <Explore country='Poland' image='src/assets/explore2.jpeg' />
-                                <Explore country='Germany' image='src/assets/explore4.jpeg' />
+                                <Explore country='United Kingdom' image='src/assets/hero/location.jpeg' />
+                                <Explore country='America Unite State' image='src/assets/hero/location5.jpeg' />
+                                <Explore country='Vatican' image='src/assets/hero/location3.jpeg' />
+                                <Explore country='Germany' image='src/assets/hero/location4.jpeg' />
 
                             </Carousel>
                         </div>

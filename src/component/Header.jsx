@@ -41,7 +41,7 @@ const Header = () => {
                             <MdClose />
                         </div>
                         ) : (
-                            <div className=' lg:hidden text-7xl cursor-pointer text-white ' onClick={showDropdown}>
+                            <div className=' lg:hidden translate-x-60  right-10 text-6xl cursor-pointer text-white ' onClick={showDropdown}>
                                 <HiMenuAlt3 />
                             </div>
                         )}

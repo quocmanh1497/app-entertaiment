@@ -20,7 +20,7 @@ export default function Popular() {
             <div className='max-w-[1320px] mx-auto mt-16 px-3'>
                 <div className={` lg:flex gap-8 justify-between ${reverse && 'flex-flow-reverse'}`}>
                     <div className=' lg:1/2'>
-                        <h6 className=' text-green bg-[#ecf5e8] w-fit rounded-md px-5 font-bold'>{title}</h6>
+                        <h6 className='  text-green bg-[#ecf5e8] w-fit rounded-md px-5 font-bold'>{title}</h6>
                         <h6 className=' lg:text-5xl text-3xl font-bold pb-8 leading-tight'>{text}</h6>
                         <p className=' text-gray-600'>
                             Christmas (also known as Noel, Christmas) is a festival commemorating the birth of Jesus, held mainly on December 25 every year,
@@ -54,7 +54,7 @@ export default function Popular() {
     //ProgressBar
     const ProgressBar = ({ value, text }) => {
         return (
-            <div className='flex flex-col items-center'>
+            <div className=' flex flex-col items-center'>
                 <div className=' w-28'>
                     <CircularProgressbar value={value}
                         text={`${value}%`}
@@ -65,7 +65,7 @@ export default function Popular() {
                             backgroundColor: "#f8f8f8"
                         })} />
                 </div>
-                <p className=' font-bold mt-2'>{text}</p>
+                <p className=' font-bold mt-2 translate-x-1'>{text}</p>
             </div>
         )
     }
@@ -76,11 +76,11 @@ export default function Popular() {
     return (
         <>
             <Section
-                image="src/assets/explore4.jpeg"
+                image="src/assets/popular/icon-footer3.jpeg"
                 text="great ooooooooo"
                 title="who we are"
             >
-                <div>
+                <div className='flex h-8 px-0 py-36 '>
                     {categories.map((category) => (
                         <Card
                             key={category.text}
@@ -94,7 +94,7 @@ export default function Popular() {
 
 
             <Section
-                image='src/assets/noel(4).jpg'
+                image='src/assets/icon.jpeg'
                 text='Merry Christmas'
                 title='Welcome'
                 reverse

@@ -28,15 +28,15 @@ export default function Explore() {
 
             <div className=' px-3'>
 
-                <div className=' max-w-[1320px] mx-auto bg-[url(/src/assets/background5.jpeg)] bg-green bg-no-repeat bg-cover rounded-[10px] relative z-10 lg:mb-0 -mb-24'>
+                <div className=' max-w-[1320px] mx-auto bg-[url(src/assets/explore/explore6.jpeg)] bg-green bg-no-repeat bg-cover rounded-[10px] relative z-10 lg:mb-0 -mb-24'>
                     <div className=' lg:p-16 py-8 px-4 lg:flex justify-between items-center'>
-                        <div className=' flex items-center gap-4 lg:mb-0 mb-4'>
-                            <RiPlaneLine size={50} color='white' />
+                        <div className=' flex items-center gap-4 lg:mb-0 mb-4 lg:w-3/4'>
+                            <RiPlaneLine size={150} color='red' />
                             <span className=' text-black'>
                                 <p className=' text-sm'>Question and ...</p>
-                                <h4 className=' lg:text-4xl text-2xl font-bold'> Ready to adventure</h4>
+                                <h4 className=' lg:text-4xl text-2xl font-bold'> Ready for adventure, let's explore the newest and most interesting things</h4>
                             </span>
-                            <button className=' bg-red-600 rounded-lg text-lg shadow py-4 px-8 font-bold text-white'>
+                            <button className=' translate-x-40 bg-red-600 rounded-full text-lg  shadow  py-4 px-8 font-bold text-white'>
                                 Explore
                             </button>
                         </div>
@@ -46,11 +46,11 @@ export default function Explore() {
 
                 <div className=' lg:flex lg:-mt-20'>
                     <img
-                        src="src/assets/Explore2.avif"
+                        src="src/assets/explore/explore2.jpeg"
                         alt=''
                         className=' lg:w-1/2 w-full lg:h-auto h-[350px] object-cover'
                     />
-                    <div className=' lg:w-1/2 bg-[url(src/assets/background5.jpeg)] bg-no-repeat bg-cover lg:p-20 lg:pt-44 pr-4 py-20 px-3 bg-[#f3f8f6] '>
+                    <div className=' lg:w-1/2 bg-[url()] bg-no-repeat bg-cover lg:p-20 lg:pt-44 pr-4 py-20 px-3 bg-[#f3f8f6] '>
                         <div className=' flex flex-col'>
                             <div className=' relative w-fit px-8 py-2 items-center flex justify-center flex-wrap' >
                                 <span className=' bg-black rounded-md  opacity-15  w-full h-full z-10'></span>

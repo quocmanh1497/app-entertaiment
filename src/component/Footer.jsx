@@ -17,7 +17,7 @@ export default function
         <footer className=' bg-[#1D231F] pt-44'>
             <div className=' max-w-[1320px] mx-auto px-3'>
                 <div className=' lg:flex gap-16 pb-20'>
-                    <div className=' flex justify-between items-center lg:pb-0 pb-8'>
+                    <div className=' flex justify-between items-center lg:pb-0 lg:w-1/2 pb-8 '>
                         <span className=' flex  gap-4 items-center lg:w-3/4'>
                             <img src='src/assets/icon-footer.jpeg' alt='' height={150} width={150} className=' rounded-3xl' />
                             <p className=' text-white font-bold'>Need any support for tour & travel ?</p>
@@ -28,7 +28,7 @@ export default function
                             </button>
                         </div>
                     </div>
-                    <div className=' flex justify-between items-center lg:pb-0 pb-8'>
+                    <div className=' flex justify-between items-center lg:pb-0 lg:w-1/2 pb-8'>
                         <span className=' flex gap-4 items-center lg:w-3/4'>
                             <img src='src/assets/icon-footer2.jpeg' alt='' height={150} width={150} className=' rounded-3xl' />
                             <p className=' text-white font-bold'>Ready to Get Started With Vacations</p>
@@ -42,7 +42,7 @@ export default function
                 </div>
 
                 <div>
-                    <div className='flex justify-between'>
+                    <div className=' flex items-center justify-between'>
                         <div>
                             <img src='src/assets/logo1.png' alt='' width={130} className=' rounded-full' />
                             <p className=' my-5  text-white'>To take trivial example which us ever  undertakes laborious</p>
@@ -63,7 +63,7 @@ export default function
                         </div>
 
 
-                        <div className=' lg:w-1/5 text-white'>
+                        <div className=' lg:w-2/34 text-white'>
                             <h6 className=' text-xl font-bold my-5 lg:mt-0'>Pages</h6>
                             <ul className='flex flex-col gap-4'>
                                 <a href='#' className=' hover:text-green' >About Us</a>
@@ -74,7 +74,7 @@ export default function
                             </ul>
                         </div>
 
-                        <div className='flex flex-col lg:w-1/3 text-white'>
+                        <div className='flex flex-col lg:w-1/4 text-white'>
                             <h6 className=' text-white text-xl font-bold my-5 lg:mt-0'>Newsletter</h6>
                             <p className=' my-5'>Subscribe our Newsletter to get our latest  update & news</p>
                             <div className=' relative h-1/4 flex items-center'>
@@ -86,7 +86,7 @@ export default function
                             </label>
                         </div>
 
-                        <div className=' pt-[15px]'>
+                        <div className=' pt-[15px] lg:w-1/6'>
                             <ul className=' flex flex-col gap-4 text-white'>
                                 <div className='flex items-center gap-4'>
                                     <button className=' flex items-center gap-2 bg-[#262d28] rounded-full w-fit justify-center p-4 hover:text-green hover:bg-white'>

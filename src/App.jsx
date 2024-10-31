@@ -1,5 +1,4 @@
-import Hero from "./component/Hero"
-
+import Card from "./component/Card"
 import Header from "./component/Header"
 import Popular from "./component/Popular"
 import Offers from "./component/Offers"
@@ -28,7 +27,7 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
+      <Card />
       <Popular />
       <Offers />
       <Tour />

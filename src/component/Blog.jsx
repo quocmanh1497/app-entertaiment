@@ -71,8 +71,8 @@ export default function Blog() {
                         </div>
                     </div>
                     <div className=' grid lg:grid-cols-3 grid-cols-1 gap-8'>
-                        <Blogs text=' Things to see and do when visiting Japan' title='Adventure' image='src/assets/background9.jpeg' />
-                        <Blogs text=' Things to see and do when visiting Japan' title='Adventure' image='src/assets/background9.jpeg' />
+                        <Blogs text=' Things to see and do when visiting Japan' title='Adventure' image='src/assets/blog/Blog7.jpeg' />
+                        <Blogs text=' Things to see and do when visiting Japan' title='Adventure' image='src/assets/blog/Blog8.jpeg' />
 
                         <div className=' flex flex-col gap-2'>
                             <Blogs text=' Things to see and do when visiting Japan' />
@@ -92,42 +92,42 @@ export default function Blog() {
                 >
                     <div className=' h-[298px] relative overflow-hidden'>
                         <img
-                            src='src/assets/Blog1.jpeg'
+                            src='src/assets/blog/Blog2.jpeg'
                             alt=''
                             className=' rounded-lg h-full object-cover hoverImg'
                         />
                     </div>
                     <div className=' h-[298px] relative overflow-hidden'>
                         <img
-                            src='src/assets/Blog1.jpeg'
+                            src='src/assets/blog/Blog3.jpeg'
                             alt=''
                             className=' rounded-lg h-full object-cover hoverImg'
                         />
                     </div>
                     <div className=' h-[298px] relative overflow-hidden'>
                         <img
-                            src='src/assets/Blog1.jpeg'
+                            src='src/assets/blog/Blog2.jpeg'
                             alt=''
                             className=' rounded-lg h-full object-cover hoverImg'
                         />
                     </div>
                     <div className=' h-[298px] relative overflow-hidden'>
                         <img
-                            src='src/assets/Blog1.jpeg'
+                            src='src/assets/blog/Blog3.jpeg'
                             alt=''
                             className=' rounded-lg h-full object-cover hoverImg'
                         />
                     </div>
                     <div className=' h-[298px] relative overflow-hidden'>
                         <img
-                            src='src/assets/Blog1.jpeg'
+                            src='src/assets/blog/Blog2.jpeg'
                             alt=''
                             className=' rounded-lg h-full object-cover hoverImg'
                         />
                     </div>
                     <div className=' h-[298px] relative overflow-hidden'>
                         <img
-                            src='src/assets/Blog1.jpeg'
+                            src='src/assets/blog/Blog3.jpeg'
                             alt=''
                             className=' rounded-lg h-full object-cover hoverImg'
                         />
