@@ -99,7 +99,7 @@ export default function Popular() {
                 title='Welcome'
                 reverse
             >
-                <div className=' flex justify-center items-center bg-gray-100 my-12'>
+                <div className=' flex justify-center items-center bg-gray-100 my-12 h-8 px-0 py-36'>
                     <div className=' bg-white p8 rounded-lg shadow-xl flex lg:flex-col items-center lg:gap-16 gap-4 w-full justify-center'>
                         <ProgressBar value={50} text="Satisfied Clients" />
                         <ProgressBar value={50} text="Success Rate" />

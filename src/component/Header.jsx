@@ -3,11 +3,11 @@ import { CiSearch } from "react-icons/ci";
 import { BsPersonCircle } from "react-icons/bs";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
+import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {
-    const { dropdown, setDropdown } = useState(false);
-
+    const [dropdown, setDropdown] = useState(false);
     const showDropdown = () => {
         setDropdown(!dropdown)
     }
@@ -21,11 +21,11 @@ const Header = () => {
                         </div>
                     </div>
                     <ul className='flex items-center xl:gap-12 gap-x-4 max-lg:hidden'>
-                        <a href='#home' className='leading-normal no-underline text-white text-lg hover:text-green'>Home</a>
-                        <a href='#distraction' className='leading-normal no-underline text-white text-lg hover:text-green'>Distraction</a>
-                        <a href='#news' className='leading-normal no-underline text-white text-lg hover:text-green'>News</a>
-                        <a href='#page' className='leading-normal no-underline text-white text-lg hover:text-green'>Pages</a>
-                        <a href='#contact' className='leading-normal no-underline text-white text-lg hover:text-green'>Contact</a>
+                        <NavLink to='/' className='leading-normal no-underline text-white text-lg hover:text-green'>Home</NavLink>
+                        <NavLink to='/about' className='leading-normal no-underline text-white text-lg hover:text-green'>About Us</NavLink>
+                        <NavLink to='/tours' className='leading-normal no-underline text-white text-lg hover:text-green'>Tours</NavLink>
+                        <NavLink to='/news' className='leading-normal no-underline text-white text-lg hover:text-green'>News</NavLink>
+                        <NavLink to='/contact' className='leading-normal no-underline text-white text-lg hover:text-green'>Contact</NavLink>
                     </ul>
 
                     <div className='flex gap4 max-lg:hidden w-40 justify-center'>

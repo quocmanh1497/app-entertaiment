@@ -1,3 +1,4 @@
+
 import Card from "./component/Card"
 import Header from "./component/Header"
 import Popular from "./component/Popular"
@@ -10,9 +11,18 @@ import Footer from "./component/Footer"
 
 
 
-import React, { useEffect } from "react"
+import React, { Component, useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import AboutUs from "./page/AboutUs"
+import Tours from "./page/Tours"
+import News from "./page/News"
+import Contact from "./page/Contact"
+
+
+
+
 
 
 
@@ -25,17 +35,30 @@ function App() {
   }, [])
 
   return (
-    <>
+    // <>
+    //   <Header />
+    //   <Card />
+    //   <Popular />
+    //   <Offers />
+    //   <Tour />
+    //   <Explore />
+    //   <Blog />
+    //   {/* <Accordion /> */}
+    //   <Footer />
+    // </>
+    <BrowserRouter>
       <Header />
-      <Card />
-      <Popular />
-      <Offers />
-      <Tour />
-      <Explore />
-      <Blog />
-      {/* <Accordion /> */}
+      <Routes>
+        <Route path="/" element={<Card />} />
+        <Route path="/home" element={<Card />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/tours" element={<Tours />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/contact" element={<Contact />} />
+
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

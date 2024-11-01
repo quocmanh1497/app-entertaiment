@@ -18,6 +18,14 @@ import { TbBeach } from "react-icons/tb";
 import { LiaWarehouseSolid } from "react-icons/lia";
 import { IoArrowForward } from "react-icons/io5";
 
+//import jsx
+import Popular from "./Popular";
+import Offers from "./Offers";
+import Explore from "./Explore";
+import Tour from "./Tour";
+import Blog from "./Blog";
+
+
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -210,6 +218,12 @@ export default function Card() {
                     </div>
                 </div>
             </section>
+            <Popular />
+            <Offers />
+            <Tour />
+            <Explore />
+            <Blog />
         </div>
     );
 }
+
